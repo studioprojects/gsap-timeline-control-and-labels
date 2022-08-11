@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color:white;
+    font-family: 'Kanit', sans-serif;
+    background:#020202;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#wrapper {
+    /* visibility:hidden; */
+    width:800px;
+    height:450px;
+    text-align:center;
+}
+
+button {
+    width: 60px;
+    margin-top: 20px;
+}
+
+#demo {
+    overflow:hidden;
+    position:relative;
+    width:800px;
+    height:410px;
+    border:1px solid #333;
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/32887/space-background.png);
+
+}
+
+#title {
+    position:absolute;
+    top:120px;
+    left:40px;
+}
+
+#freds {
+    position:absolute;
+    top:250px;
+    left:20px;
+}
+
+#freds img {
+    width:122px;
+}
+
+#time {
+    position:absolute;
+    top:25px;
+    right:0;
+}
